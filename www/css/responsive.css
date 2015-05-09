@@ -1,0 +1,127 @@
+
+@media (max-width: 991px) {
+	
+	
+	
+	.navigation-wrap { position: fixed; top: 0; }
+	.navbar-custom .navbar-nav > li {
+		float: left;
+		width: 50%;
+		
+	}
+	
+	.logo{ position: absolute;
+		top: 2%;
+		left:13%;
+width:40%; }
+	
+	.navbar-custom .navbar-nav > li > a { 
+		border-width:  0 0 0 0.5rem;
+		border-style: solid;
+		padding: 2rem;
+	}
+	a.register { 
+		position: relative; 
+		float: right; 
+		padding: 3rem 2rem; 
+	}
+	.navbar-nav { border-bottom: 1px solid #ebeef0; }
+}
+
+@media (max-width: 767px) {
+    .logo{ position: absolute;
+		top: 5%;
+		left:2%;
+width:40%; }
+		
+
+	html { font-size: 50.5% }
+	.header-background { height: 500px; }
+
+	.content section,
+	.content footer { padding: 1rem 2.5rem; }
+	.section-header { margin: 1.5 0 2rem 0; }
+	.header-caption .box h1 { font-size: 7rem; }
+	.header-caption .box span { font-size: 4rem; }
+
+	/* Schedule */
+	.schedule-speaker,
+	.schedule-speaker-list { display: none; }
+	.schedule-time { width: 100%; padding-bottom: 0; text-align: left;  }
+
+}
+
+@media (max-width: 480px) {
+	.logo{ position: absolute;
+		top: 8%;
+		left:2%;
+width:65%; }
+
+	.header-caption .box h1 { font-size: 5rem; }
+	.header-caption .box span { font-size: 2.5rem; }
+
+	.testimonial-avatar { display: none; }
+	.testimonial-content { margin: 0; padding: 0; }
+	.partner { height: auto; }
+
+	.map { height: 250px; }
+
+	.news-date { width: 100%; padding: 1rem 1.5rem; }
+	.news a { margin: 0; }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo{ position: absolute;
+		top: 2%;
+		left:13%;
+width:40%; }
+	
+	
+
+	html { font-size: 54.5% }
+	.header-background { height: 500px; }
+
+	.content section,
+	.content footer { padding: 2rem 3.5rem; }
+	.section-header { margin: 1.5rem 0 3rem 0; }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo{ position: absolute;
+		top: 5%;
+		left:2%;
+width:40%; }
+
+	.header-background { height: 600px; }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+	.header-background { height: 625px; }
+	.logo{ position: absolute;
+		top: 5%;
+		left:2%;
+width:40%; }
+	
+}
+
+@media (min-width: 1300px) {
+		.logo {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 35%;
+}
+	
+}
+@media (min-width: 1920px) {
+		.logo {
+    position: absolute;
+top: 10%;
+left: 18%;
+width: 25%;
+}
+	
+}
